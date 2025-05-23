@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESB Santé - Prendre rendez-vous</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f9ff;
+        color: #333;
+      }
+
+      .header {
+        background-color: #04a4cc;
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+      }
+
+      .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 1rem;
+      }
+
+      .header-text {
+        flex: 1;
+        margin-left: 1rem;
+        text-align: left;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+
+      .header p {
+        margin: 0.5rem 0 0;
+        font-size: 1.2rem;
+        text-align: center;
+      }
+
+      .login-btn {
+        background-color: white;
+        color: #04a4cc;
+        padding: 0.5rem 1.5rem;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+        border: 2px solid white;
+      }
+
+      .login-btn:hover {
+        background-color: transparent;
+        color: white;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .hero {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+      }
+
+      .hero-text {
+        flex: 1;
+        min-width: 280px;
+      }
+
+      .hero-text h2 {
+        color: #04a4cc;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero-text p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      .hero img {
+        flex: 1;
+        max-width: 100%;
+        height: auto;
+        min-width: 200px;
+      }
+
+      .section-title {
+        text-align: left;
+        font-size: 1.8rem;
+        color: #04a4cc;
+        margin-bottom: 1rem;
+      }
+
+      .features {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .feature {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        width: 300px;
+        text-align: center;
+        transition: transform 0.3s;
+      }
+
+      .feature:hover {
+        transform: translateY(-5px);
+      }
+
+      .feature img {
+        width: 80px;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+
+      .feature h3 {
+        color: #04a4cc;
+        margin-top: 0.5rem;
+      }
+
+      .footer {
+        background-color: #f7f7f7;
+        color: #04a4cc;
+        text-align: center;
+        padding: 2rem 1rem;
+        margin-top: 3rem;
+      }
+
+      @media (max-width: 768px) {
+        .header-content {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .header-text {
+          margin-left: 0;
+        }
+
+        .login-btn {
+          margin-top: 1rem;
+        }
+
+        .features {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .feature {
+          width: 80%;
+        }
+
+        .hero {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .hero-text {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <img src="logo_esb (1).png" alt="Logo ESB" style="height: 60px" />
+        <div class="header-text">
+          <h1>ESB Santé</h1>
+          <p>Le service médical de l'Université ESB</p>
+        </div>
+        <a href="page2.html" class="login-btn">Se connecter</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hero">
+        <div class="hero-text">
+          <h2>Prenez rapidement un rendez-vous avec votre médecin !</h2>
+          <p>
+            Sélectionnez votre médecin, choisissez la date et l'heure de votre rendez-vous et recevez un SMS/email de confirmation. C'est aussi simple que ça !
+          </p>
+        </div>
+        <img src="img4.png" alt="Rendez-vous rapide" />
+      </div>
+
+      <div>
+        <h2 class="section-title">Pourquoi prendre rendez-vous avec ESB Santé ?</h2>
+        <p>
+          Avec ESB Santé, prenez rendez-vous en ligne avec votre médecin universitaire facilement, où que vous soyez.
+        </p>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <img src="F:\ESB 2425\S2\web 2\projet PI\img1.png.png" alt="Accès médecin" />
+          <h3>Accédez rapidement à votre médecin</h3>
+          <p>Consultez votre médecin universitaire sans perdre de temps</p>
+        </div>
+
+        <div class="feature">
+          <img src="F:\ESB 2425\S2\web 2\projet PI\img2.png.png" alt="Rendez-vous en ligne" />
+          <h3>Prenez rendez-vous en ligne à tout moment</h3>
+          <p>Disponible 24h/24 et 7j/7 pour réserver vos créneaux</p>
+        </div>
+
+        <div class="feature">
+          <img src="iimg3.png.png" alt="Rappels automatiques" />
+          <h3>Recevez des rappels personnalisés</h3>
+          <p>SMS et emails de rappel pour ne pas oublier votre rendez-vous</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 ESB Santé - Service médical de l'Université ESB</p>
+      <p>Pour les étudiants et le personnel de l'ESB</p>
+    </div>
+  </body>
+</html>
